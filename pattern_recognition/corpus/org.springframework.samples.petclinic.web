@@ -1,0 +1,461 @@
+CrashController CrashController CrashController CrashController CrashController CrashController CrashController CrashController CrashController CrashController VetController VetController VetController VetController VetController VetController VetController VetController VetController VetController VisitController VisitController VisitController VisitController VisitController VisitController VisitController VisitController VisitController VisitController PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetController PetController PetController PetController PetController PetController PetController PetController PetController PetController CrashController CrashController CrashController CrashController CrashController CrashController CrashController CrashController CrashController CrashController VetController VetController VetController VetController VetController VetController VetController VetController VetController VetController VisitController VisitController VisitController VisitController VisitController VisitController VisitController VisitController VisitController VisitController PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator PetValidator OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController OwnerController PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetController PetController PetController PetController PetController PetController PetController PetController PetController PetController 
+clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService clinicService 
+triggerException triggerException triggerException triggerException triggerException VetController VetController VetController VetController VetController showVetList showVetList showVetList showVetList showVetList showResourcesVetList showResourcesVetList showResourcesVetList showResourcesVetList showResourcesVetList VisitController VisitController VisitController VisitController VisitController setAllowedFields setAllowedFields setAllowedFields setAllowedFields setAllowedFields loadPetWithVisit loadPetWithVisit loadPetWithVisit loadPetWithVisit loadPetWithVisit initNewVisitForm initNewVisitForm initNewVisitForm initNewVisitForm initNewVisitForm processNewVisitForm processNewVisitForm processNewVisitForm processNewVisitForm processNewVisitForm showVisits showVisits showVisits showVisits showVisits validate validate validate validate validate supports supports supports supports supports OwnerController OwnerController OwnerController OwnerController OwnerController setAllowedFields setAllowedFields setAllowedFields setAllowedFields setAllowedFields initCreationForm initCreationForm initCreationForm initCreationForm initCreationForm processCreationForm processCreationForm processCreationForm processCreationForm processCreationForm initFindForm initFindForm initFindForm initFindForm initFindForm processFindForm processFindForm processFindForm processFindForm processFindForm initUpdateOwnerForm initUpdateOwnerForm initUpdateOwnerForm initUpdateOwnerForm initUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm showOwner showOwner showOwner showOwner showOwner PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter print print print print print parse parse parse parse parse PetController PetController PetController PetController PetController populatePetTypes populatePetTypes populatePetTypes populatePetTypes populatePetTypes findOwner findOwner findOwner findOwner findOwner initOwnerBinder initOwnerBinder initOwnerBinder initOwnerBinder initOwnerBinder initPetBinder initPetBinder initPetBinder initPetBinder initPetBinder initCreationForm initCreationForm initCreationForm initCreationForm initCreationForm processCreationForm processCreationForm processCreationForm processCreationForm processCreationForm initUpdateForm initUpdateForm initUpdateForm initUpdateForm initUpdateForm processUpdateForm processUpdateForm processUpdateForm processUpdateForm processUpdateForm triggerException triggerException triggerException triggerException triggerException VetController VetController VetController VetController VetController showVetList showVetList showVetList showVetList showVetList showResourcesVetList showResourcesVetList showResourcesVetList showResourcesVetList showResourcesVetList VisitController VisitController VisitController VisitController VisitController setAllowedFields setAllowedFields setAllowedFields setAllowedFields setAllowedFields loadPetWithVisit loadPetWithVisit loadPetWithVisit loadPetWithVisit loadPetWithVisit initNewVisitForm initNewVisitForm initNewVisitForm initNewVisitForm initNewVisitForm processNewVisitForm processNewVisitForm processNewVisitForm processNewVisitForm processNewVisitForm showVisits showVisits showVisits showVisits showVisits validate validate validate validate validate supports supports supports supports supports OwnerController OwnerController OwnerController OwnerController OwnerController setAllowedFields setAllowedFields setAllowedFields setAllowedFields setAllowedFields initCreationForm initCreationForm initCreationForm initCreationForm initCreationForm processCreationForm processCreationForm processCreationForm processCreationForm processCreationForm initFindForm initFindForm initFindForm initFindForm initFindForm processFindForm processFindForm processFindForm processFindForm processFindForm initUpdateOwnerForm initUpdateOwnerForm initUpdateOwnerForm initUpdateOwnerForm initUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm processUpdateOwnerForm showOwner showOwner showOwner showOwner showOwner PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter PetTypeFormatter print print print print print parse parse parse parse parse PetController PetController PetController PetController PetController populatePetTypes populatePetTypes populatePetTypes populatePetTypes populatePetTypes findOwner findOwner findOwner findOwner findOwner initOwnerBinder initOwnerBinder initOwnerBinder initOwnerBinder initOwnerBinder initPetBinder initPetBinder initPetBinder initPetBinder initPetBinder initCreationForm initCreationForm initCreationForm initCreationForm initCreationForm processCreationForm processCreationForm processCreationForm processCreationForm processCreationForm initUpdateForm initUpdateForm initUpdateForm initUpdateForm initUpdateForm processUpdateForm processUpdateForm processUpdateForm processUpdateForm processUpdateForm 
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Controller used to showcase what happens when an exception is thrown
+ *
+ * @author Michael Isvy
+ *         <p/>
+ *         Also see how the bean of type 'SimpleMappingExceptionResolver' has been declared inside
+ *         /WEB-INF/mvc-core-config.xml
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Mark Fisher
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+// Here we are returning an object of type 'Vets' rather than a collection of Vet objects
+// so it is simpler for Object-Xml mapping
+// Here we are returning an object of type 'Vets' rather than a collection of Vet objects
+// so it is simpler for JSon/Object mapping
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ * @author Michael Isvy
+ *
+/**
+     * Called before each and every @RequestMapping annotated method.
+     * 2 goals:
+     * - Make sure we always have fresh data
+     * - Since we do not use the session scope, make sure that Pet object always has an id
+     * (Even though id is not part of the form fields)
+     *
+     * @param petId
+     * @return Pet
+     *
+/*/pets/{petId}/visits/new", method = RequestMethod.GET)
+    public String initNewVisitForm(@PathVariable("petId") int petId, Map<String, Object> model) {
+        return "pets/createOrUpdateVisitForm";
+    }
+
+    // Spring MVC calls method loadPetWithVisit(...) before processNewVisitForm is called
+    @RequestMapping(value = "/owners/{ownerId}/pets/{petId}/visits/new", method = RequestMethod.POST)
+    public String processNewVisitForm(@Valid Visit visit, BindingResult result) {
+        if (result.hasErrors()) {
+            return "pets/createOrUpdateVisitForm";
+        } else {
+            this.clinicService.saveVisit(visit);
+            return "redirect:/owners/{ownerId}";
+        }
+    }
+
+    @RequestMapping(value = "/owners/*
+//www.apache.org/licenses/LICENSE-2.0
+// Spring MVC calls method loadPetWithVisit(...) before initNewVisitForm is called
+// Spring MVC calls method loadPetWithVisit(...) before processNewVisitForm is called
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * <code>Validator</code> for <code>Pet</code> forms.
+ * <p>
+ * We're not using Bean Validation annotations here because it is easier to define such validation rule in Java.
+ * </p>
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ *
+/**
+     * This Validator validates *just* Pet instances
+     *
+//www.apache.org/licenses/LICENSE-2.0
+// name validation
+// type validation
+// birth date validation
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ * @author Michael Isvy
+ *
+/**
+     * Custom handler for displaying an owner.
+     *
+     * @param ownerId the ID of the owner to display
+     * @return a ModelMap with the model attributes for the view
+     *
+//www.apache.org/licenses/LICENSE-2.0
+// allow parameterless GET request for /owners to return all records
+// empty string signifies broadest possible search
+// find owners by last name
+// no owners found
+// 1 owner found
+// multiple owners found
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Instructs Spring MVC on how to parse and print elements of type 'PetType'. Starting from Spring 3.0, Formatters have
+ * come as an improvement in comparison to legacy PropertyEditors. See the following links for more details: - The
+ * Spring ref doc: http://static.springsource.org/spring/docs/current/spring-framework-reference/html/validation.html#format-Formatter-SPI
+ * - A nice blog entry from Gordon Dickens: http://gordondickens.com/wordpress/2010/09/30/using-spring-3-0-custom-type-converter/
+ * <p/>
+ * Also see how the bean 'conversionService' has been declared inside /WEB-INF/mvc-core-config.xml
+ *
+ * @author Mark Fisher
+ * @author Juergen Hoeller
+ * @author Michael Isvy
+ *
+//www.apache.org/licenses/LICENSE-2.0
+//static.springsource.org/spring/docs/current/spring-framework-reference/html/validation.html#format-Formatter-SPI
+//gordondickens.com/wordpress/2010/09/30/using-spring-3-0-custom-type-converter/
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Controller used to showcase what happens when an exception is thrown
+ *
+ * @author Michael Isvy
+ *         <p/>
+ *         Also see how the bean of type 'SimpleMappingExceptionResolver' has been declared inside
+ *         /WEB-INF/mvc-core-config.xml
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Mark Fisher
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+// Here we are returning an object of type 'Vets' rather than a collection of Vet objects
+
+// so it is simpler for Object-Xml mapping
+
+// Here we are returning an object of type 'Vets' rather than a collection of Vet objects
+
+// so it is simpler for JSon/Object mapping
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ * @author Michael Isvy
+ *
+/**
+     * Called before each and every @RequestMapping annotated method.
+     * 2 goals:
+     * - Make sure we always have fresh data
+     * - Since we do not use the session scope, make sure that Pet object always has an id
+     * (Even though id is not part of the form fields)
+     *
+     * @param petId
+     * @return Pet
+     *
+/*/pets/{petId}/visits/new", method = RequestMethod.GET)
+    public String initNewVisitForm(@PathVariable("petId") int petId, Map<String, Object> model) {
+        return "pets/createOrUpdateVisitForm";
+    }
+
+    // Spring MVC calls method loadPetWithVisit(...) before processNewVisitForm is called
+    @RequestMapping(value = "/owners/{ownerId}/pets/{petId}/visits/new", method = RequestMethod.POST)
+    public String processNewVisitForm(@Valid Visit visit, BindingResult result) {
+        if (result.hasErrors()) {
+            return "pets/createOrUpdateVisitForm";
+        } else {
+            this.clinicService.saveVisit(visit);
+            return "redirect:/owners/{ownerId}";
+        }
+    }
+
+    @RequestMapping(value = "/owners/*
+//www.apache.org/licenses/LICENSE-2.0
+
+// Spring MVC calls method loadPetWithVisit(...) before initNewVisitForm is called
+
+// Spring MVC calls method loadPetWithVisit(...) before processNewVisitForm is called
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * <code>Validator</code> for <code>Pet</code> forms.
+ * <p>
+ * We're not using Bean Validation annotations here because it is easier to define such validation rule in Java.
+ * </p>
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ *
+/**
+     * This Validator validates *just* Pet instances
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+// name validation
+
+// type validation
+
+// birth date validation
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ * @author Michael Isvy
+ *
+/**
+     * Custom handler for displaying an owner.
+     *
+     * @param ownerId the ID of the owner to display
+     * @return a ModelMap with the model attributes for the view
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+// allow parameterless GET request for /owners to return all records
+
+// empty string signifies broadest possible search
+
+// find owners by last name
+
+// no owners found
+
+// 1 owner found
+
+// multiple owners found
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Instructs Spring MVC on how to parse and print elements of type 'PetType'. Starting from Spring 3.0, Formatters have
+ * come as an improvement in comparison to legacy PropertyEditors. See the following links for more details: - The
+ * Spring ref doc: http://static.springsource.org/spring/docs/current/spring-framework-reference/html/validation.html#format-Formatter-SPI
+ * - A nice blog entry from Gordon Dickens: http://gordondickens.com/wordpress/2010/09/30/using-spring-3-0-custom-type-converter/
+ * <p/>
+ * Also see how the bean 'conversionService' has been declared inside /WEB-INF/mvc-core-config.xml
+ *
+ * @author Mark Fisher
+ * @author Juergen Hoeller
+ * @author Michael Isvy
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+//static.springsource.org/spring/docs/current/spring-framework-reference/html/validation.html#format-Formatter-SPI
+
+//gordondickens.com/wordpress/2010/09/30/using-spring-3-0-custom-type-converter/
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ * @author Ken Krebs
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+

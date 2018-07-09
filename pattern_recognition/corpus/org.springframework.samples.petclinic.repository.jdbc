@@ -1,0 +1,440 @@
+JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcPetRowMapper JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcVisitRowMapper JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcPet JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl 
+namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate insertOwner insertOwner insertOwner insertOwner insertOwner jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate insertVisit insertVisit insertVisit insertVisit insertVisit namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate insertPet insertPet insertPet insertPet insertPet ownerRepository ownerRepository ownerRepository ownerRepository ownerRepository visitRepository visitRepository visitRepository visitRepository visitRepository typeId typeId typeId typeId typeId ownerId ownerId ownerId ownerId ownerId jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate insertOwner insertOwner insertOwner insertOwner insertOwner jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate insertVisit insertVisit insertVisit insertVisit insertVisit namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate namedParameterJdbcTemplate insertPet insertPet insertPet insertPet insertPet ownerRepository ownerRepository ownerRepository ownerRepository ownerRepository visitRepository visitRepository visitRepository visitRepository visitRepository typeId typeId typeId typeId typeId ownerId ownerId ownerId ownerId ownerId jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate jdbcTemplate 
+mapRow mapRow mapRow mapRow mapRow JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl findByLastName findByLastName findByLastName findByLastName findByLastName findById findById findById findById findById loadPetsAndVisits loadPetsAndVisits loadPetsAndVisits loadPetsAndVisits loadPetsAndVisits save save save save save getPetTypes getPetTypes getPetTypes getPetTypes getPetTypes loadOwnersPetsAndVisits loadOwnersPetsAndVisits loadOwnersPetsAndVisits loadOwnersPetsAndVisits loadOwnersPetsAndVisits JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl save save save save save createVisitParameterSource createVisitParameterSource createVisitParameterSource createVisitParameterSource createVisitParameterSource findByPetId findByPetId findByPetId findByPetId findByPetId mapRow mapRow mapRow mapRow mapRow JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor mapPrimaryKey mapPrimaryKey mapPrimaryKey mapPrimaryKey mapPrimaryKey mapForeignKey mapForeignKey mapForeignKey mapForeignKey mapForeignKey addChild addChild addChild addChild addChild JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl findPetTypes findPetTypes findPetTypes findPetTypes findPetTypes findById findById findById findById findById save save save save save createPetParameterSource createPetParameterSource createPetParameterSource createPetParameterSource createPetParameterSource getTypeId getTypeId getTypeId getTypeId getTypeId setTypeId setTypeId setTypeId setTypeId setTypeId getOwnerId getOwnerId getOwnerId getOwnerId getOwnerId setOwnerId setOwnerId setOwnerId setOwnerId setOwnerId JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl findAll findAll findAll findAll findAll mapRow mapRow mapRow mapRow mapRow JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl JdbcOwnerRepositoryImpl findByLastName findByLastName findByLastName findByLastName findByLastName findById findById findById findById findById loadPetsAndVisits loadPetsAndVisits loadPetsAndVisits loadPetsAndVisits loadPetsAndVisits save save save save save getPetTypes getPetTypes getPetTypes getPetTypes getPetTypes loadOwnersPetsAndVisits loadOwnersPetsAndVisits loadOwnersPetsAndVisits loadOwnersPetsAndVisits loadOwnersPetsAndVisits JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl JdbcVisitRepositoryImpl save save save save save createVisitParameterSource createVisitParameterSource createVisitParameterSource createVisitParameterSource createVisitParameterSource findByPetId findByPetId findByPetId findByPetId findByPetId mapRow mapRow mapRow mapRow mapRow JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor JdbcPetVisitExtractor mapPrimaryKey mapPrimaryKey mapPrimaryKey mapPrimaryKey mapPrimaryKey mapForeignKey mapForeignKey mapForeignKey mapForeignKey mapForeignKey addChild addChild addChild addChild addChild JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl JdbcPetRepositoryImpl findPetTypes findPetTypes findPetTypes findPetTypes findPetTypes findById findById findById findById findById save save save save save createPetParameterSource createPetParameterSource createPetParameterSource createPetParameterSource createPetParameterSource getTypeId getTypeId getTypeId getTypeId getTypeId setTypeId setTypeId setTypeId setTypeId setTypeId getOwnerId getOwnerId getOwnerId getOwnerId getOwnerId setOwnerId setOwnerId setOwnerId setOwnerId setOwnerId JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl JdbcVetRepositoryImpl findAll findAll findAll findAll findAll 
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * {@link RowMapper} implementation mapping data from a {@link ResultSet} to the corresponding properties
+ * of the {@link JdbcPet} class.
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * A simple JDBC-based implementation of the {@link OwnerRepository} interface.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ *
+/**
+     * Loads {@link Owner Owners} from the data store by last name, returning all owners whose last name <i>starts</i> with
+     * the given name; also loads the {@link Pet Pets} and {@link Visit Visits} for the corresponding owners, if not
+     * already loaded.
+     *
+/**
+     * Loads the {@link Owner} with the supplied <code>id</code>; also loads the {@link Pet Pets} and {@link Visit Visits}
+     * for the corresponding owner, if not already loaded.
+     *
+/**
+     * Loads the {@link Pet} and {@link Visit} data for the supplied {@link List} of {@link Owner Owners}.
+     *
+     * @param owners the list of owners for whom the pet and visit data should be loaded
+     * @see #loadPetsAndVisits(Owner)
+     *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * A simple JDBC-based implementation of the {@link VisitRepository} interface.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ * @author Michael Isvy
+ *
+/**
+     * Creates a {@link MapSqlParameterSource} based on data values from the supplied {@link Visit} instance.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2015 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * {@link RowMapper} implementation mapping data from a {@link ResultSet} to the corresponding properties
+ * of the {@link Visit} class.
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2015 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * {@link ResultSetExtractor} implementation by using the
+ * {@link OneToManyResultSetExtractor} of Spring Data Core JDBC Extensions.
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ *
+/**
+     * Creates a {@link MapSqlParameterSource} based on data values from the supplied {@link Pet} instance.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Subclass of Pet that carries temporary id properties which are only relevant for a JDBC implementation of the
+ * PetRepository.
+ *
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * A simple JDBC-based implementation of the {@link VetRepository} interface.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ * @author Michael Isvy
+ *
+/**
+     * Refresh the cache of Vets that the ClinicService is holding.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+// Retrieve the list of all vets.
+// Retrieve the list of all possible specialties.
+// Build each vet's list of specialties.
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * {@link RowMapper} implementation mapping data from a {@link ResultSet} to the corresponding properties
+ * of the {@link JdbcPet} class.
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * A simple JDBC-based implementation of the {@link OwnerRepository} interface.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ *
+/**
+     * Loads {@link Owner Owners} from the data store by last name, returning all owners whose last name <i>starts</i> with
+     * the given name; also loads the {@link Pet Pets} and {@link Visit Visits} for the corresponding owners, if not
+     * already loaded.
+     *
+/**
+     * Loads the {@link Owner} with the supplied <code>id</code>; also loads the {@link Pet Pets} and {@link Visit Visits}
+     * for the corresponding owner, if not already loaded.
+     *
+/**
+     * Loads the {@link Pet} and {@link Visit} data for the supplied {@link List} of {@link Owner Owners}.
+     *
+     * @param owners the list of owners for whom the pet and visit data should be loaded
+     * @see #loadPetsAndVisits(Owner)
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * A simple JDBC-based implementation of the {@link VisitRepository} interface.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ * @author Michael Isvy
+ *
+/**
+     * Creates a {@link MapSqlParameterSource} based on data values from the supplied {@link Visit} instance.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2015 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * {@link RowMapper} implementation mapping data from a {@link ResultSet} to the corresponding properties
+ * of the {@link Visit} class.
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2015 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * {@link ResultSetExtractor} implementation by using the
+ * {@link OneToManyResultSetExtractor} of Spring Data Core JDBC Extensions.
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ *
+/**
+     * Creates a {@link MapSqlParameterSource} based on data values from the supplied {@link Pet} instance.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Subclass of Pet that carries temporary id properties which are only relevant for a JDBC implementation of the
+ * PetRepository.
+ *
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * A simple JDBC-based implementation of the {@link VetRepository} interface.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Rob Harrop
+ * @author Sam Brannen
+ * @author Thomas Risberg
+ * @author Mark Fisher
+ * @author Michael Isvy
+ *
+/**
+     * Refresh the cache of Vets that the ClinicService is holding.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+// Retrieve the list of all vets.
+
+// Retrieve the list of all possible specialties.
+
+// Build each vet's list of specialties.
+

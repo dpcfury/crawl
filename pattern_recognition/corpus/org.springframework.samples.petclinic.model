@@ -1,0 +1,563 @@
+Vets Vets Vets Vets Vets Vets Vets Vets Vets Vets Vet Vet Vet Vet Vet Vet Vet Vet Vet Vet Visit Visit Visit Visit Visit Visit Visit Visit Visit Visit Owner Owner Owner Owner Owner Owner Owner Owner Owner Owner PetType PetType PetType PetType PetType PetType PetType PetType PetType PetType NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity Specialty Specialty Specialty Specialty Specialty Specialty Specialty Specialty Specialty Specialty Pet Pet Pet Pet Pet Pet Pet Pet Pet Pet BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity Person Person Person Person Person Person Person Person Person Person Vets Vets Vets Vets Vets Vets Vets Vets Vets Vets Vet Vet Vet Vet Vet Vet Vet Vet Vet Vet Visit Visit Visit Visit Visit Visit Visit Visit Visit Visit Owner Owner Owner Owner Owner Owner Owner Owner Owner Owner PetType PetType PetType PetType PetType PetType PetType PetType PetType PetType NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity NamedEntity Specialty Specialty Specialty Specialty Specialty Specialty Specialty Specialty Specialty Specialty Pet Pet Pet Pet Pet Pet Pet Pet Pet Pet BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity BaseEntity Person Person Person Person Person Person Person Person Person Person 
+vets vets vets vets vets specialties specialties specialties specialties specialties date date date date date description description description description description pet pet pet pet pet address address address address address city city city city city telephone telephone telephone telephone telephone pets pets pets pets pets name name name name name birthDate birthDate birthDate birthDate birthDate type type type type type owner owner owner owner owner visits visits visits visits visits id id id id id firstName firstName firstName firstName firstName lastName lastName lastName lastName lastName vets vets vets vets vets specialties specialties specialties specialties specialties date date date date date description description description description description pet pet pet pet pet address address address address address city city city city city telephone telephone telephone telephone telephone pets pets pets pets pets name name name name name birthDate birthDate birthDate birthDate birthDate type type type type type owner owner owner owner owner visits visits visits visits visits id id id id id firstName firstName firstName firstName firstName lastName lastName lastName lastName lastName 
+getVetList getVetList getVetList getVetList getVetList getSpecialtiesInternal getSpecialtiesInternal getSpecialtiesInternal getSpecialtiesInternal getSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal getSpecialties getSpecialties getSpecialties getSpecialties getSpecialties getNrOfSpecialties getNrOfSpecialties getNrOfSpecialties getNrOfSpecialties getNrOfSpecialties addSpecialty addSpecialty addSpecialty addSpecialty addSpecialty Visit Visit Visit Visit Visit getDate getDate getDate getDate getDate setDate setDate setDate setDate setDate getDescription getDescription getDescription getDescription getDescription setDescription setDescription setDescription setDescription setDescription getPet getPet getPet getPet getPet setPet setPet setPet setPet setPet getAddress getAddress getAddress getAddress getAddress setAddress setAddress setAddress setAddress setAddress getCity getCity getCity getCity getCity setCity setCity setCity setCity setCity getTelephone getTelephone getTelephone getTelephone getTelephone setTelephone setTelephone setTelephone setTelephone setTelephone getPetsInternal getPetsInternal getPetsInternal getPetsInternal getPetsInternal setPetsInternal setPetsInternal setPetsInternal setPetsInternal setPetsInternal getPets getPets getPets getPets getPets addPet addPet addPet addPet addPet getPet getPet getPet getPet getPet getPet getPet getPet getPet getPet toString toString toString toString toString getName getName getName getName getName setName setName setName setName setName toString toString toString toString toString getBirthDate getBirthDate getBirthDate getBirthDate getBirthDate setBirthDate setBirthDate setBirthDate setBirthDate setBirthDate getType getType getType getType getType setType setType setType setType setType getOwner getOwner getOwner getOwner getOwner setOwner setOwner setOwner setOwner setOwner getVisitsInternal getVisitsInternal getVisitsInternal getVisitsInternal getVisitsInternal setVisitsInternal setVisitsInternal setVisitsInternal setVisitsInternal setVisitsInternal getVisits getVisits getVisits getVisits getVisits addVisit addVisit addVisit addVisit addVisit getId getId getId getId getId setId setId setId setId setId isNew isNew isNew isNew isNew getFirstName getFirstName getFirstName getFirstName getFirstName setFirstName setFirstName setFirstName setFirstName setFirstName getLastName getLastName getLastName getLastName getLastName setLastName setLastName setLastName setLastName setLastName getVetList getVetList getVetList getVetList getVetList getSpecialtiesInternal getSpecialtiesInternal getSpecialtiesInternal getSpecialtiesInternal getSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal setSpecialtiesInternal getSpecialties getSpecialties getSpecialties getSpecialties getSpecialties getNrOfSpecialties getNrOfSpecialties getNrOfSpecialties getNrOfSpecialties getNrOfSpecialties addSpecialty addSpecialty addSpecialty addSpecialty addSpecialty Visit Visit Visit Visit Visit getDate getDate getDate getDate getDate setDate setDate setDate setDate setDate getDescription getDescription getDescription getDescription getDescription setDescription setDescription setDescription setDescription setDescription getPet getPet getPet getPet getPet setPet setPet setPet setPet setPet getAddress getAddress getAddress getAddress getAddress setAddress setAddress setAddress setAddress setAddress getCity getCity getCity getCity getCity setCity setCity setCity setCity setCity getTelephone getTelephone getTelephone getTelephone getTelephone setTelephone setTelephone setTelephone setTelephone setTelephone getPetsInternal getPetsInternal getPetsInternal getPetsInternal getPetsInternal setPetsInternal setPetsInternal setPetsInternal setPetsInternal setPetsInternal getPets getPets getPets getPets getPets addPet addPet addPet addPet addPet getPet getPet getPet getPet getPet getPet getPet getPet getPet getPet toString toString toString toString toString getName getName getName getName getName setName setName setName setName setName toString toString toString toString toString getBirthDate getBirthDate getBirthDate getBirthDate getBirthDate setBirthDate setBirthDate setBirthDate setBirthDate setBirthDate getType getType getType getType getType setType setType setType setType setType getOwner getOwner getOwner getOwner getOwner setOwner setOwner setOwner setOwner setOwner getVisitsInternal getVisitsInternal getVisitsInternal getVisitsInternal getVisitsInternal setVisitsInternal setVisitsInternal setVisitsInternal setVisitsInternal setVisitsInternal getVisits getVisits getVisits getVisits getVisits addVisit addVisit addVisit addVisit addVisit getId getId getId getId getId setId setId setId setId setId isNew isNew isNew isNew isNew getFirstName getFirstName getFirstName getFirstName getFirstName setFirstName setFirstName setFirstName setFirstName setFirstName getLastName getLastName getLastName getLastName getLastName setLastName setLastName setLastName setLastName setLastName 
+/*
+   * Copyright 2002-2013 the original author or authors.
+   *
+   * Licensed under the Apache License, Version 2.0 (the "License");
+   * you may not use this file except in compliance with the License.
+   * You may obtain a copy of the License at
+   *
+   *      http://www.apache.org/licenses/LICENSE-2.0
+   *
+   * Unless required by applicable law or agreed to in writing, software
+   * distributed under the License is distributed on an "AS IS" BASIS,
+   * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   * See the License for the specific language governing permissions and
+   * limitations under the License.
+   *
+/**
+ * Simple domain object representing a list of veterinarians. Mostly here to be used for the 'vets' {@link
+ * org.springframework.web.servlet.view.xml.MarshallingView}.
+ *
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing a veterinarian.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Sam Brannen
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing a visit.
+ *
+ * @author Ken Krebs
+ *
+/**
+     * Holds value of property date.
+     *
+/**
+     * Holds value of property description.
+     *
+/**
+     * Holds value of property pet.
+     *
+/**
+     * Creates a new instance of Visit for the current date
+     *
+/**
+     * Getter for property date.
+     *
+     * @return Value of property date.
+     *
+/**
+     * Setter for property date.
+     *
+     * @param date New value of property date.
+     *
+/**
+     * Getter for property description.
+     *
+     * @return Value of property description.
+     *
+/**
+     * Setter for property description.
+     *
+     * @param description New value of property description.
+     *
+/**
+     * Getter for property pet.
+     *
+     * @return Value of property pet.
+     *
+/**
+     * Setter for property pet.
+     *
+     * @param pet New value of property pet.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing an owner.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Sam Brannen
+ * @author Michael Isvy
+ *
+/**
+     * Return the Pet with the given name, or null if none found for this Owner.
+     *
+     * @param name to test
+     * @return true if pet name is already in use
+     *
+/**
+     * Return the Pet with the given name, or null if none found for this Owner.
+     *
+     * @param name to test
+     * @return true if pet name is already in use
+     *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ *         Can be Cat, Dog, Hamster...
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object adds a name property to <code>BaseEntity</code>. Used as a base class for objects
+ * needing these properties.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Models a {@link Vet Vet's} specialty (for example, dentistry).
+ *
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple business object representing a pet.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Sam Brannen
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object with an id property. Used as a base class for objects needing this property.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing an person.
+ *
+ * @author Ken Krebs
+ *
+//www.apache.org/licenses/LICENSE-2.0
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple domain object representing a list of veterinarians. Mostly here to be used for the 'vets' {@link
+ * org.springframework.web.servlet.view.xml.MarshallingView}.
+ *
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing a veterinarian.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Sam Brannen
+ * @author Arjen Poutsma
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing a visit.
+ *
+ * @author Ken Krebs
+ *
+/**
+     * Holds value of property date.
+     *
+/**
+     * Holds value of property description.
+     *
+/**
+     * Holds value of property pet.
+     *
+/**
+     * Creates a new instance of Visit for the current date
+     *
+/**
+     * Getter for property date.
+     *
+     * @return Value of property date.
+     *
+/**
+     * Setter for property date.
+     *
+     * @param date New value of property date.
+     *
+/**
+     * Getter for property description.
+     *
+     * @return Value of property description.
+     *
+/**
+     * Setter for property description.
+     *
+     * @param description New value of property description.
+     *
+/**
+     * Getter for property pet.
+     *
+     * @return Value of property pet.
+     *
+/**
+     * Setter for property pet.
+     *
+     * @param pet New value of property pet.
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing an owner.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Sam Brannen
+ * @author Michael Isvy
+ *
+/**
+     * Return the Pet with the given name, or null if none found for this Owner.
+     *
+     * @param name to test
+     * @return true if pet name is already in use
+     *
+/**
+     * Return the Pet with the given name, or null if none found for this Owner.
+     *
+     * @param name to test
+     * @return true if pet name is already in use
+     *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * @author Juergen Hoeller
+ *         Can be Cat, Dog, Hamster...
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object adds a name property to <code>BaseEntity</code>. Used as a base class for objects
+ * needing these properties.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Models a {@link Vet Vet's} specialty (for example, dentistry).
+ *
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple business object representing a pet.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ * @author Sam Brannen
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object with an id property. Used as a base class for objects needing this property.
+ *
+ * @author Ken Krebs
+ * @author Juergen Hoeller
+ *
+//www.apache.org/licenses/LICENSE-2.0
+
+/*
+ * Copyright 2002-2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+/**
+ * Simple JavaBean domain object representing an person.
+ *
+ * @author Ken Krebs
+ *
+//www.apache.org/licenses/LICENSE-2.0
+

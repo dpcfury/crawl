@@ -1,0 +1,2 @@
+msg = "dpc"
+print(msg)
